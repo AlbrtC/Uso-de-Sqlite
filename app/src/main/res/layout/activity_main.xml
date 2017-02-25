@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Hola, Bienvenido"
+        android:id="@+id/textView1"
+        android:layout_marginTop="-60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        />
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="@string/agregar_text"
+            android:id="@+id/agregarbtn"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/borderbutton"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:onClick="onClick"  />
+
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Eliminar"
+            android:id="@+id/eliminar_btn"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/borderbutton"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:onClick="onEliminar"  />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="@string/listar_text"
+            android:id="@+id/listarbtn"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/borderbutton"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:onClick="onListar" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Modificar"
+            android:id="@+id/modificar_btn"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/borderbutton"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:onClick="premodificar" />
+
+</LinearLayout>

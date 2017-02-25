@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Agenda UNP</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="agregar_text">Agregar</string>
+    <string name="listar_text">Listar</string>
+    <string name="title_activity_agregar">Agregar Contacto</string>
+    <string name="title_activity_buscar_persona">Lista de Contactos</string>
+    <string name="title_activity_eliminar">Buscar-Eliminar</string>
+    <string name="title_activity_pre_modificar">Buscar-Editar</string>
+    <string name="title_activity_modificar">Editar Contacto</string>
+</resources>
